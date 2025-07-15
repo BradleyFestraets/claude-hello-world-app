@@ -4,10 +4,28 @@
   "description": "A simple hello world application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node index.js"
   },
-  "keywords": ["hello", "world", "claude"],
+  "keywords": [
+    "hello",
+    "world",
+    "claude"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradleyFestraets/claude-hello-world-app.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BradleyFestraets/claude-hello-world-app/issues"
+  },
+  "homepage": "https://github.com/BradleyFestraets/claude-hello-world-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
 }
