@@ -1,0 +1,13 @@
+{
+  "name": "claude-hello-world-app",
+  "version": "1.0.0",
+  "description": "A simple hello world application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["hello", "world", "claude"],
+  "author": "",
+  "license": "MIT"
+}
